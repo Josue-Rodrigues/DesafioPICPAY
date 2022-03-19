@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3975C063A3B00563CECF8EBD /* Pods_DesafioPICPAY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239BC9C7D970AAB0DE900D73 /* Pods_DesafioPICPAY.framework */; };
+		A86AEAEB27E3786000799E75 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86AEAEA27E3786000799E75 /* ContactDetailView.swift */; };
+		A86AEAF027E38D4800799E75 /* PaymentViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86AEAEF27E38D4800799E75 /* PaymentViewScreen.swift */; };
+		A86AEAF227E38D6F00799E75 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86AEAF127E38D6E00799E75 /* PaymentViewController.swift */; };
+		A86AEAF527E3DCDC00799E75 /* DataContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86AEAF427E3DCDC00799E75 /* DataContact.swift */; };
+		A8CA527227E0CDE6000F4AD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA527127E0CDE6000F4AD5 /* AppDelegate.swift */; };
+		A8CA527427E0CDE6000F4AD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA527327E0CDE6000F4AD5 /* SceneDelegate.swift */; };
+		A8CA527C27E0CDE6000F4AD5 /* DesafioPICPAY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8CA527A27E0CDE6000F4AD5 /* DesafioPICPAY.xcdatamodeld */; };
+		A8CA527E27E0CDE8000F4AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CA527D27E0CDE8000F4AD5 /* Assets.xcassets */; };
+		A8CA528127E0CDE8000F4AD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CA527F27E0CDE8000F4AD5 /* LaunchScreen.storyboard */; };
+		A8CA528927E0CEBE000F4AD5 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA528827E0CEBE000F4AD5 /* InitialViewController.swift */; };
+		A8CA528E27E0D225000F4AD5 /* InitialViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA528D27E0D225000F4AD5 /* InitialViewScreen.swift */; };
+		A8CA529327E0EFF9000F4AD5 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA529227E0EFF9000F4AD5 /* ContactViewController.swift */; };
+		A8CA529527E0F658000F4AD5 /* ContactViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA529427E0F658000F4AD5 /* ContactViewScreen.swift */; };
+		A8F2C1A927E11C8600C3EA14 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F2C1A827E11C8600C3EA14 /* ContactTableViewCell.swift */; };
+		A8F2C1AC27E11EB000C3EA14 /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F2C1AB27E11EB000C3EA14 /* ContactDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C02F13B59A8BD11B8EF57C4 /* Pods-DesafioPICPAY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioPICPAY.release.xcconfig"; path = "Target Support Files/Pods-DesafioPICPAY/Pods-DesafioPICPAY.release.xcconfig"; sourceTree = "<group>"; };
+		239BC9C7D970AAB0DE900D73 /* Pods_DesafioPICPAY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioPICPAY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		892F93048790F802C82E97D1 /* Pods-DesafioPICPAY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioPICPAY.debug.xcconfig"; path = "Target Support Files/Pods-DesafioPICPAY/Pods-DesafioPICPAY.debug.xcconfig"; sourceTree = "<group>"; };
+		A86AEAEA27E3786000799E75 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		A86AEAEF27E38D4800799E75 /* PaymentViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewScreen.swift; sourceTree = "<group>"; };
+		A86AEAF127E38D6E00799E75 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		A86AEAF427E3DCDC00799E75 /* DataContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContact.swift; sourceTree = "<group>"; };
+		A8CA526E27E0CDE6000F4AD5 /* DesafioPICPAY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioPICPAY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CA527127E0CDE6000F4AD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8CA527327E0CDE6000F4AD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8CA527B27E0CDE6000F4AD5 /* DesafioPICPAY.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DesafioPICPAY.xcdatamodel; sourceTree = "<group>"; };
+		A8CA527D27E0CDE8000F4AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8CA528027E0CDE8000F4AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8CA528227E0CDE8000F4AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CA528827E0CEBE000F4AD5 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		A8CA528D27E0D225000F4AD5 /* InitialViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewScreen.swift; sourceTree = "<group>"; };
+		A8CA529227E0EFF9000F4AD5 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		A8CA529427E0F658000F4AD5 /* ContactViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewScreen.swift; sourceTree = "<group>"; };
+		A8F2C1A827E11C8600C3EA14 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		A8F2C1AB27E11EB000C3EA14 /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8CA526B27E0CDE6000F4AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3975C063A3B00563CECF8EBD /* Pods_DesafioPICPAY.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95BB86DE3D30C82B261A17E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				892F93048790F802C82E97D1 /* Pods-DesafioPICPAY.debug.xcconfig */,
+				0C02F13B59A8BD11B8EF57C4 /* Pods-DesafioPICPAY.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A86AEAE927E3782800799E75 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A86AEAEA27E3786000799E75 /* ContactDetailView.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		A86AEAEC27E38CCE00799E75 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				A86AEAED27E38CFF00799E75 /* ViewController */,
+				A86AEAEE27E38D1300799E75 /* ViewScreen */,
+				A86AEAF327E3DCC000799E75 /* Model */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		A86AEAED27E38CFF00799E75 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A86AEAF127E38D6E00799E75 /* PaymentViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A86AEAEE27E38D1300799E75 /* ViewScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A86AEAEF27E38D4800799E75 /* PaymentViewScreen.swift */,
+			);
+			path = ViewScreen;
+			sourceTree = "<group>";
+		};
+		A86AEAF327E3DCC000799E75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A86AEAF427E3DCDC00799E75 /* DataContact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8CA526527E0CDE6000F4AD5 = {
+			isa = PBXGroup;
+			children = (
+				A8CA527027E0CDE6000F4AD5 /* DesafioPICPAY */,
+				A8CA526F27E0CDE6000F4AD5 /* Products */,
+				95BB86DE3D30C82B261A17E1 /* Pods */,
+				CCC0972EF1E40209E4C2C53B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8CA526F27E0CDE6000F4AD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8CA526E27E0CDE6000F4AD5 /* DesafioPICPAY.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8CA527027E0CDE6000F4AD5 /* DesafioPICPAY */ = {
+			isa = PBXGroup;
+			children = (
+				A86AEAEC27E38CCE00799E75 /* Payment */,
+				A8CA528F27E0EFBC000F4AD5 /* Contacts */,
+				A8CA528A27E0D16E000F4AD5 /* Initial_Page */,
+				A8CA527127E0CDE6000F4AD5 /* AppDelegate.swift */,
+				A8CA527327E0CDE6000F4AD5 /* SceneDelegate.swift */,
+				A8CA527D27E0CDE8000F4AD5 /* Assets.xcassets */,
+				A8CA527F27E0CDE8000F4AD5 /* LaunchScreen.storyboard */,
+				A8CA528227E0CDE8000F4AD5 /* Info.plist */,
+				A8CA527A27E0CDE6000F4AD5 /* DesafioPICPAY.xcdatamodeld */,
+			);
+			path = DesafioPICPAY;
+			sourceTree = "<group>";
+		};
+		A8CA528A27E0D16E000F4AD5 /* Initial_Page */ = {
+			isa = PBXGroup;
+			children = (
+				A8CA528B27E0D1A4000F4AD5 /* ViewController */,
+				A8CA528C27E0D1CF000F4AD5 /* ViewScreen */,
+			);
+			path = Initial_Page;
+			sourceTree = "<group>";
+		};
+		A8CA528B27E0D1A4000F4AD5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8CA528827E0CEBE000F4AD5 /* InitialViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8CA528C27E0D1CF000F4AD5 /* ViewScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A8CA528D27E0D225000F4AD5 /* InitialViewScreen.swift */,
+			);
+			path = ViewScreen;
+			sourceTree = "<group>";
+		};
+		A8CA528F27E0EFBC000F4AD5 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				A8CA529027E0EFCC000F4AD5 /* ViewController */,
+				A8CA529127E0EFD7000F4AD5 /* ViewScreen */,
+				A8F2C1A727E11C5200C3EA14 /* TableViewCell */,
+				A86AEAE927E3782800799E75 /* DetailView */,
+				A8F2C1AA27E11E9600C3EA14 /* Model */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		A8CA529027E0EFCC000F4AD5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8CA529227E0EFF9000F4AD5 /* ContactViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8CA529127E0EFD7000F4AD5 /* ViewScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A8CA529427E0F658000F4AD5 /* ContactViewScreen.swift */,
+			);
+			path = ViewScreen;
+			sourceTree = "<group>";
+		};
+		A8F2C1A727E11C5200C3EA14 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A8F2C1A827E11C8600C3EA14 /* ContactTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		A8F2C1AA27E11E9600C3EA14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8F2C1AB27E11EB000C3EA14 /* ContactDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCC0972EF1E40209E4C2C53B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				239BC9C7D970AAB0DE900D73 /* Pods_DesafioPICPAY.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8CA526D27E0CDE6000F4AD5 /* DesafioPICPAY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8CA528527E0CDE8000F4AD5 /* Build configuration list for PBXNativeTarget "DesafioPICPAY" */;
+			buildPhases = (
+				2CA432538C611669FF85FC5B /* [CP] Check Pods Manifest.lock */,
+				A8CA526A27E0CDE6000F4AD5 /* Sources */,
+				A8CA526B27E0CDE6000F4AD5 /* Frameworks */,
+				A8CA526C27E0CDE6000F4AD5 /* Resources */,
+				830FDE85F72117AE2996747B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioPICPAY;
+			productName = DesafioPICPAY;
+			productReference = A8CA526E27E0CDE6000F4AD5 /* DesafioPICPAY.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8CA526627E0CDE6000F4AD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A8CA526D27E0CDE6000F4AD5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = A8CA526927E0CDE6000F4AD5 /* Build configuration list for PBXProject "DesafioPICPAY" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8CA526527E0CDE6000F4AD5;
+			productRefGroup = A8CA526F27E0CDE6000F4AD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8CA526D27E0CDE6000F4AD5 /* DesafioPICPAY */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8CA526C27E0CDE6000F4AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CA528127E0CDE8000F4AD5 /* LaunchScreen.storyboard in Resources */,
+				A8CA527E27E0CDE8000F4AD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CA432538C611669FF85FC5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioPICPAY-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		830FDE85F72117AE2996747B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioPICPAY/Pods-DesafioPICPAY-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioPICPAY/Pods-DesafioPICPAY-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioPICPAY/Pods-DesafioPICPAY-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8CA526A27E0CDE6000F4AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CA528E27E0D225000F4AD5 /* InitialViewScreen.swift in Sources */,
+				A8CA527227E0CDE6000F4AD5 /* AppDelegate.swift in Sources */,
+				A8CA527427E0CDE6000F4AD5 /* SceneDelegate.swift in Sources */,
+				A86AEAF527E3DCDC00799E75 /* DataContact.swift in Sources */,
+				A8CA527C27E0CDE6000F4AD5 /* DesafioPICPAY.xcdatamodeld in Sources */,
+				A86AEAEB27E3786000799E75 /* ContactDetailView.swift in Sources */,
+				A8F2C1A927E11C8600C3EA14 /* ContactTableViewCell.swift in Sources */,
+				A8F2C1AC27E11EB000C3EA14 /* ContactDetail.swift in Sources */,
+				A86AEAF227E38D6F00799E75 /* PaymentViewController.swift in Sources */,
+				A8CA528927E0CEBE000F4AD5 /* InitialViewController.swift in Sources */,
+				A86AEAF027E38D4800799E75 /* PaymentViewScreen.swift in Sources */,
+				A8CA529527E0F658000F4AD5 /* ContactViewScreen.swift in Sources */,
+				A8CA529327E0EFF9000F4AD5 /* ContactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8CA527F27E0CDE8000F4AD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8CA528027E0CDE8000F4AD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8CA528327E0CDE8000F4AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8CA528427E0CDE8000F4AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8CA528627E0CDE8000F4AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892F93048790F802C82E97D1 /* Pods-DesafioPICPAY.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N693S93Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioPICPAY/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CursoIOS.DesafioPICPAY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8CA528727E0CDE8000F4AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C02F13B59A8BD11B8EF57C4 /* Pods-DesafioPICPAY.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N693S93Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioPICPAY/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CursoIOS.DesafioPICPAY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8CA526927E0CDE6000F4AD5 /* Build configuration list for PBXProject "DesafioPICPAY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CA528327E0CDE8000F4AD5 /* Debug */,
+				A8CA528427E0CDE8000F4AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8CA528527E0CDE8000F4AD5 /* Build configuration list for PBXNativeTarget "DesafioPICPAY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CA528627E0CDE8000F4AD5 /* Debug */,
+				A8CA528727E0CDE8000F4AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8CA527A27E0CDE6000F4AD5 /* DesafioPICPAY.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8CA527B27E0CDE6000F4AD5 /* DesafioPICPAY.xcdatamodel */,
+			);
+			currentVersion = A8CA527B27E0CDE6000F4AD5 /* DesafioPICPAY.xcdatamodel */;
+			path = DesafioPICPAY.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8CA526627E0CDE6000F4AD5 /* Project object */;
+}
