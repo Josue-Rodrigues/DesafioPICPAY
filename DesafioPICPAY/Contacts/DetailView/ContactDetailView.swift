@@ -20,7 +20,7 @@ class ContactDetailView: UIView {
         return label
     }()
     
-    // Criando uma TextField = Email
+    // Criando uma TextField = Pesquisa contato
     lazy var textFieldSearchContact: UITextField = {
         
         let textField = UITextField()

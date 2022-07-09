@@ -11,8 +11,6 @@ class ContactViewController: UIViewController {
     
     // Criando nossa variavel e instanciando ela como CONTACTVIEWSCREEN
     var contactViewScreen:ContactViewScreen? = ContactViewScreen()
-    
-    var dataContact: String = ""
 
     var contactDetail:[ContactDetail] = [
         ContactDetail(contactName: "@Ciclismo", detailContactName: "Daylson Pereira", imageName: "ciclismo"),
@@ -72,9 +70,7 @@ extension ContactViewController: UITableViewDelegate, UITableViewDataSource {
         
         return cell ?? UITableViewCell()
     }
-    
-    
-    
+  
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
         let contactRow = self.contactDetail[indexPath.row]

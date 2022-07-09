@@ -2,7 +2,7 @@
 //  PaymentViewController.swift
 //  DesafioPICPAY
 //
-//  Created by Valeria Moreira pereira rodrigues on 17/03/22.
+//  Created by Josué Herrera Rodrigues on 17/03/22.
 //
 
 import UIKit
